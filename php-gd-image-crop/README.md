@@ -1,0 +1,1 @@
+# Crops image using PHP GD library while maintaining Aspect Ratio and a colored background to fill the empty canvas.
