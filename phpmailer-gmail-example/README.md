@@ -11,12 +11,12 @@
   - `$recepientsEmail` - Recievers email address.
   - `$subjectOfMail`   - Subject for email.
   - `$messageContent`  - Body of mail. Either text or html.
+  - The function will return an status variable whose value will be
+	`Sent` if mail was succesfull , otherwise it will contain the error message.
 
 ```
-
 Note:	You need to configure the sendMail.php file according to your details.
 		Details such as username, password, sender, replyto needs to be configured
-		with your own account details.
-		
+		with your own account details.	
 ```
 
