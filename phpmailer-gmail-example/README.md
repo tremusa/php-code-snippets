@@ -16,7 +16,8 @@
 
 ```
 Note:	You need to configure the sendMail.php file according to your details.
-		Details such as username, password, sender, replyto needs to be configured
-		with your own account details.	
+	Details such as username, password, sender, replyto needs to be configured
+	with your own account details. If you're using Gmail for testing, visit
+	https://myaccount.google.com/security and set **Allow less secure apps** to On.
 ```
 
