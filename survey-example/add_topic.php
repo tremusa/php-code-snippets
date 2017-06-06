@@ -8,10 +8,17 @@ if(isset($_POST['add'])){
 if(isset($_POST['delete'])){
     mysqli_query($conn,"update topic set is_deleted=1 where topic_id={$_POST['delete']}");
 }
+
+if(isset($_POST['edit'])){
+    header('Location: edit_topic.php?tid='.$_POST['edit']);
+}
 ?>
 <style>
     tr{
         text-align: center;
+    }
+    button{
+        display:inline;
     }
 </style>
 <h1> Manage Topics </h1>
@@ -26,7 +33,7 @@ if(isset($_POST['delete'])){
     $result = mysqli_query($conn,$query);
     if(mysqli_num_rows($result)>0){
         $table = "  <form method='post'>
-                    <table width='25%'>
+                    <table width='35%'>
                         <tr>
                             <th> Topic ID </th>
                             <th> Topic Name </th>
@@ -38,7 +45,10 @@ if(isset($_POST['delete'])){
                             <td> {$row['topic_id']}</td>
                             <td> {$row['topic_name']}</td>
                             <td> {$row['current_set_id']}</td>
-                            <td> <button name='delete' value='{$row['topic_id']}'> Delete </button> </td>
+                            <td> 
+                                <button name='edit' value='{$row['topic_id']}'> Edit </button> 
+                                <button name='delete' value='{$row['topic_id']}'> Delete </button> 
+                            </td>
                         </tr>";
         }
 
