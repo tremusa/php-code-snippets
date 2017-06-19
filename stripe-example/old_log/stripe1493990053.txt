@@ -1,0 +1,30 @@
+array (
+  'id' => 'evt_1AFzN8BOC7tDda6fkk6NWzJo',
+  'object' => 'event',
+  'api_version' => '2017-04-06',
+  'created' => 1493963578,
+  'data' => 
+  array (
+    'object' => 
+    array (
+      'id' => 'daily',
+      'object' => 'plan',
+      'amount' => 100,
+      'created' => 1493963578,
+      'currency' => 'usd',
+      'interval' => 'day',
+      'interval_count' => 1,
+      'livemode' => false,
+      'metadata' => 
+      array (
+      ),
+      'name' => 'daily',
+      'statement_descriptor' => 'Daily Plan $1',
+      'trial_period_days' => NULL,
+    ),
+  ),
+  'livemode' => false,
+  'pending_webhooks' => 1,
+  'request' => 'req_AbBkLoL1Cc32X1',
+  'type' => 'plan.created',
+)

@@ -1,0 +1,154 @@
+array (
+  'id' => 'evt_1AG7INBOC7tDda6f4uVb4aWS',
+  'object' => 'event',
+  'api_version' => '2017-04-06',
+  'created' => 1493994035,
+  'data' => 
+  array (
+    'object' => 
+    array (
+      'id' => 'cus_AbJwEwkFuXKZjE',
+      'object' => 'customer',
+      'account_balance' => 0,
+      'created' => 1493994035,
+      'currency' => 'usd',
+      'default_source' => 'card_1AG7IJBOC7tDda6fR6EHcM2S',
+      'delinquent' => false,
+      'description' => NULL,
+      'discount' => NULL,
+      'email' => 'shrikrishna.shanbhag+4@intecons.com',
+      'livemode' => false,
+      'metadata' => 
+      array (
+      ),
+      'shipping' => NULL,
+      'sources' => 
+      array (
+        'object' => 'list',
+        'data' => 
+        array (
+          0 => 
+          array (
+            'id' => 'card_1AG7IJBOC7tDda6fR6EHcM2S',
+            'object' => 'card',
+            'address_city' => NULL,
+            'address_country' => NULL,
+            'address_line1' => NULL,
+            'address_line1_check' => NULL,
+            'address_line2' => NULL,
+            'address_state' => NULL,
+            'address_zip' => NULL,
+            'address_zip_check' => NULL,
+            'brand' => 'Visa',
+            'country' => 'US',
+            'customer' => 'cus_AbJwEwkFuXKZjE',
+            'cvc_check' => 'pass',
+            'dynamic_last4' => NULL,
+            'exp_month' => 11,
+            'exp_year' => 2022,
+            'fingerprint' => 'O29K4ESjjABIkYze',
+            'funding' => 'credit',
+            'last4' => '4242',
+            'metadata' => 
+            array (
+            ),
+            'name' => 'shrikrishna.shanbhag+4@intecons.com',
+            'tokenization_method' => NULL,
+          ),
+        ),
+        'has_more' => false,
+        'total_count' => 1,
+        'url' => '/v1/customers/cus_AbJwEwkFuXKZjE/sources',
+      ),
+      'subscriptions' => 
+      array (
+        'object' => 'list',
+        'data' => 
+        array (
+          0 => 
+          array (
+            'id' => 'sub_AbJwKpKvSAIo9S',
+            'object' => 'subscription',
+            'application_fee_percent' => NULL,
+            'cancel_at_period_end' => false,
+            'canceled_at' => NULL,
+            'created' => 1493994035,
+            'current_period_end' => 1494080435,
+            'current_period_start' => 1493994035,
+            'customer' => 'cus_AbJwEwkFuXKZjE',
+            'discount' => NULL,
+            'ended_at' => NULL,
+            'items' => 
+            array (
+              'object' => 'list',
+              'data' => 
+              array (
+                0 => 
+                array (
+                  'id' => 'si_1AG7INBOC7tDda6fLdWB8J5Z',
+                  'object' => 'subscription_item',
+                  'created' => 1493994035,
+                  'plan' => 
+                  array (
+                    'id' => 'daily',
+                    'object' => 'plan',
+                    'amount' => 100,
+                    'created' => 1493963578,
+                    'currency' => 'usd',
+                    'interval' => 'day',
+                    'interval_count' => 1,
+                    'livemode' => false,
+                    'metadata' => 
+                    array (
+                    ),
+                    'name' => 'daily',
+                    'statement_descriptor' => 'Daily Plan $1',
+                    'trial_period_days' => NULL,
+                  ),
+                  'quantity' => 1,
+                ),
+              ),
+              'has_more' => false,
+              'total_count' => 1,
+              'url' => '/v1/subscription_items?subscription=sub_AbJwKpKvSAIo9S',
+            ),
+            'livemode' => false,
+            'metadata' => 
+            array (
+            ),
+            'plan' => 
+            array (
+              'id' => 'daily',
+              'object' => 'plan',
+              'amount' => 100,
+              'created' => 1493963578,
+              'currency' => 'usd',
+              'interval' => 'day',
+              'interval_count' => 1,
+              'livemode' => false,
+              'metadata' => 
+              array (
+              ),
+              'name' => 'daily',
+              'statement_descriptor' => 'Daily Plan $1',
+              'trial_period_days' => NULL,
+            ),
+            'quantity' => 1,
+            'start' => 1493994035,
+            'status' => 'active',
+            'tax_percent' => NULL,
+            'trial_end' => NULL,
+            'trial_start' => NULL,
+          ),
+        ),
+        'has_more' => false,
+        'total_count' => 1,
+        'url' => '/v1/customers/cus_AbJwEwkFuXKZjE/subscriptions',
+      ),
+    ),
+  ),
+  'livemode' => false,
+  'pending_webhooks' => 2,
+  'request' => 'req_AbJwm1qrAoO691',
+  'type' => 'customer.created',
+)

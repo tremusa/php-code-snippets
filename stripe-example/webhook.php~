@@ -1,0 +1,29 @@
+<?php
+	require_once('stripe/autoload.php');
+	require_once('connect.php');
+
+	$f = fopen('file.txt','w');
+	fwrite($f,'error');
+
+
+	\Stripe\Stripe::setApiKey(STRIPE_TEST_SEC_KEY);
+	$input = @file_get_contents("php://input");
+	$event_json = json_decode($input,true);
+	$cust_id = $event_json['id'];
+    $sub_id = $event_json['subscriptions']['data'][0]['id'];
+    $selected_plan = $event_json['subscriptions']['data'][0]['items']['data'][0]['plan']['id'];
+    $plan_type = $event_json['subscriptions']['data'][0]['plan']['interval'];
+    $currency = $event_json['subscriptions']['data'][0]['items']['data'][0]['plan']['currency'];
+    $default_card = $event_json['default_source'];
+    fwrite($f,'MSG:'.$event_json['created'].$cust_id.$sub_id.$selected_plan.$plan_type.$currency.$default_card);
+    fclose($f);
+
+	$file = fopen("stripe".time().".txt","w");
+	fwrite($file,var_export($event_json,true));
+	fclose($file);
+
+// Do something with $event_json
+
+//http_response_code(200); // PHP 5.4 or greater
+	
+?>

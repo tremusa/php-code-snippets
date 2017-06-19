@@ -1,0 +1,96 @@
+'{
+  "id": "evt_1AH6FLBOC7tDda6fz1JEVqC8",
+  "object": "event",
+  "api_version": "2017-04-06",
+  "created": 1494228331,
+  "data": {
+    "object": {
+      "id": "in_1AGMBWBOC7tDda6fcjewjH7Y",
+      "object": "invoice",
+      "amount_due": 100,
+      "application_fee": null,
+      "attempt_count": 1,
+      "attempted": true,
+      "charge": "ch_1AH6FLBOC7tDda6fQBKtU894",
+      "closed": true,
+      "currency": "usd",
+      "customer": "cus_AbC4MunX5r3xkQ",
+      "date": 1494051270,
+      "description": null,
+      "discount": null,
+      "ending_balance": 0,
+      "forgiven": false,
+      "lines": {
+        "object": "list",
+        "data": [
+          {
+            "id": "sub_AbC4YckTcyuOQH",
+            "object": "line_item",
+            "amount": 100,
+            "currency": "usd",
+            "description": null,
+            "discountable": true,
+            "livemode": false,
+            "metadata": {
+            },
+            "period": {
+              "start": 1494051162,
+              "end": 1494137562
+            },
+            "plan": {
+              "id": "daily",
+              "object": "plan",
+              "amount": 100,
+              "created": 1493963578,
+              "currency": "usd",
+              "interval": "day",
+              "interval_count": 1,
+              "livemode": false,
+              "metadata": {
+              },
+              "name": "daily",
+              "statement_descriptor": "Daily Plan $1",
+              "trial_period_days": null
+            },
+            "proration": false,
+            "quantity": 1,
+            "subscription": null,
+            "subscription_item": "si_1AFzgEBOC7tDda6ftfrdOQ2i",
+            "type": "subscription"
+          }
+        ],
+        "has_more": false,
+        "total_count": 1,
+        "url": "/v1/invoices/in_1AGMBWBOC7tDda6fcjewjH7Y/lines"
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "next_payment_attempt": null,
+      "paid": true,
+      "period_end": 1494051162,
+      "period_start": 1493964762,
+      "receipt_number": null,
+      "starting_balance": 0,
+      "statement_descriptor": null,
+      "subscription": "sub_AbC4YckTcyuOQH",
+      "subtotal": 100,
+      "tax": null,
+      "tax_percent": null,
+      "total": 100,
+      "webhooks_delivered_at": 1494224729
+    },
+    "previous_attributes": {
+      "attempted": false,
+      "charge": null,
+      "closed": false,
+      "ending_balance": null,
+      "next_payment_attempt": 1494054870,
+      "paid": false
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 2,
+  "request": null,
+  "type": "invoice.updated"
+}'

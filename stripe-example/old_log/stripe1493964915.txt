@@ -1,0 +1,98 @@
+array (
+  'id' => 'evt_1AFzifBOC7tDda6fDtSkHrjn',
+  'object' => 'event',
+  'api_version' => '2017-04-06',
+  'created' => 1493964913,
+  'data' => 
+  array (
+    'object' => 
+    array (
+      'id' => 'in_1AFzifBOC7tDda6fXA0ymv0k',
+      'object' => 'invoice',
+      'amount_due' => 100,
+      'application_fee' => NULL,
+      'attempt_count' => 0,
+      'attempted' => true,
+      'charge' => 'ch_1AFzifBOC7tDda6ffUwTunD8',
+      'closed' => true,
+      'currency' => 'usd',
+      'customer' => 'cus_AbC63RVlT1ezP1',
+      'date' => 1493964913,
+      'description' => NULL,
+      'discount' => NULL,
+      'ending_balance' => 0,
+      'forgiven' => false,
+      'lines' => 
+      array (
+        'object' => 'list',
+        'data' => 
+        array (
+          0 => 
+          array (
+            'id' => 'sub_AbC6gQJ6k9CVh8',
+            'object' => 'line_item',
+            'amount' => 100,
+            'currency' => 'usd',
+            'description' => NULL,
+            'discountable' => true,
+            'livemode' => false,
+            'metadata' => 
+            array (
+            ),
+            'period' => 
+            array (
+              'start' => 1493964913,
+              'end' => 1494051313,
+            ),
+            'plan' => 
+            array (
+              'id' => 'daily',
+              'object' => 'plan',
+              'amount' => 100,
+              'created' => 1493963578,
+              'currency' => 'usd',
+              'interval' => 'day',
+              'interval_count' => 1,
+              'livemode' => false,
+              'metadata' => 
+              array (
+              ),
+              'name' => 'daily',
+              'statement_descriptor' => 'Daily Plan $1',
+              'trial_period_days' => NULL,
+            ),
+            'proration' => false,
+            'quantity' => 1,
+            'subscription' => NULL,
+            'subscription_item' => 'si_1AFzifBOC7tDda6f9kqIM6rZ',
+            'type' => 'subscription',
+          ),
+        ),
+        'has_more' => false,
+        'total_count' => 1,
+        'url' => '/v1/invoices/in_1AFzifBOC7tDda6fXA0ymv0k/lines',
+      ),
+      'livemode' => false,
+      'metadata' => 
+      array (
+      ),
+      'next_payment_attempt' => NULL,
+      'paid' => true,
+      'period_end' => 1493964913,
+      'period_start' => 1493964913,
+      'receipt_number' => NULL,
+      'starting_balance' => 0,
+      'statement_descriptor' => NULL,
+      'subscription' => 'sub_AbC6gQJ6k9CVh8',
+      'subtotal' => 100,
+      'tax' => NULL,
+      'tax_percent' => NULL,
+      'total' => 100,
+      'webhooks_delivered_at' => NULL,
+    ),
+  ),
+  'livemode' => false,
+  'pending_webhooks' => 2,
+  'request' => 'req_AbC6oAIgxdrZom',
+  'type' => 'invoice.payment_succeeded',
+)

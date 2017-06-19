@@ -1,0 +1,38 @@
+'{
+  "id": "evt_1AH5LTBOC7tDda6f7Wuu1TY4",
+  "object": "event",
+  "api_version": "2017-04-06",
+  "created": 1494224867,
+  "data": {
+    "object": {
+      "id": "card_1AH5LPBOC7tDda6faOJ8wiEO",
+      "object": "card",
+      "address_city": null,
+      "address_country": null,
+      "address_line1": null,
+      "address_line1_check": null,
+      "address_line2": null,
+      "address_state": null,
+      "address_zip": null,
+      "address_zip_check": null,
+      "brand": "Visa",
+      "country": "US",
+      "customer": "cus_AcJzcMFeeDIWHr",
+      "cvc_check": "pass",
+      "dynamic_last4": null,
+      "exp_month": 11,
+      "exp_year": 2022,
+      "fingerprint": "O29K4ESjjABIkYze",
+      "funding": "credit",
+      "last4": "4242",
+      "metadata": {
+      },
+      "name": "shrikrishna.shanbhag@intecons.com",
+      "tokenization_method": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 2,
+  "request": "req_AcJzjvXdaR9vYt",
+  "type": "customer.source.created"
+}'

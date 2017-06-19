@@ -1,0 +1,41 @@
+array (
+  'id' => 'evt_1AG7INBOC7tDda6fRTsKYtzl',
+  'object' => 'event',
+  'api_version' => '2017-04-06',
+  'created' => 1493994035,
+  'data' => 
+  array (
+    'object' => 
+    array (
+      'id' => 'card_1AG7IJBOC7tDda6fR6EHcM2S',
+      'object' => 'card',
+      'address_city' => NULL,
+      'address_country' => NULL,
+      'address_line1' => NULL,
+      'address_line1_check' => NULL,
+      'address_line2' => NULL,
+      'address_state' => NULL,
+      'address_zip' => NULL,
+      'address_zip_check' => NULL,
+      'brand' => 'Visa',
+      'country' => 'US',
+      'customer' => 'cus_AbJwEwkFuXKZjE',
+      'cvc_check' => 'pass',
+      'dynamic_last4' => NULL,
+      'exp_month' => 11,
+      'exp_year' => 2022,
+      'fingerprint' => 'O29K4ESjjABIkYze',
+      'funding' => 'credit',
+      'last4' => '4242',
+      'metadata' => 
+      array (
+      ),
+      'name' => 'shrikrishna.shanbhag+4@intecons.com',
+      'tokenization_method' => NULL,
+    ),
+  ),
+  'livemode' => false,
+  'pending_webhooks' => 2,
+  'request' => 'req_AbJwm1qrAoO691',
+  'type' => 'customer.source.created',
+)

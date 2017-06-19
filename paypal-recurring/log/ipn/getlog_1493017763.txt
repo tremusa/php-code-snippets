@@ -1,0 +1,76 @@
+2017-04-24 12:39:23pm 
+ Array
+(
+    [mc_gross] => 5.00
+    [protection_eligibility] => Eligible
+    [address_status] => confirmed
+    [payer_id] => XEJYU7WME6PFY
+    [address_street] => 1 Main St
+    [payment_date] => 22:13:04 Apr 23, 2017 PDT
+    [payment_status] => Completed
+    [charset] => windows-1252
+    [address_zip] => 95131
+    [first_name] => Buyer
+    [mc_fee] => 0.45
+    [address_country_code] => US
+    [address_name] => Buyer One
+    [notify_version] => 3.8
+    [subscr_id] => I-7HJ904BE4GU2
+    [custom] => first:15
+    [payer_status] => verified
+    [business] => promerchant@intecons.com
+    [address_country] => United States
+    [address_city] => San Jose
+    [verify_sign] => An5ns1Kso7MWUdW4ErQKJJJ4qi4-ArIx1GiZCtwzcl2dlm9VXvMkzrit
+    [payer_email] => buyer@intecons.com
+    [txn_id] => 0CG2694202754871J
+    [payment_type] => instant
+    [last_name] => One
+    [address_state] => CA
+    [receiver_email] => promerchant@intecons.com
+    [payment_fee] => 0.45
+    [receiver_id] => 77YB2ZSKNHXGS
+    [txn_type] => subscr_payment
+    [item_name] => Paragon Slippers
+    [mc_currency] => USD
+    [residence_country] => US
+    [test_ipn] => 1
+    [transaction_subject] => Paragon Slippers
+    [payment_gross] => 5.00
+    [ipn_track_id] => 7b919bbc77bb1
+)
+ 
+ Array
+(
+    [HTTP_HOST] => 75338139.ngrok.io
+    [HTTP_ACCEPT] => */*
+    [CONTENT_TYPE] => application/x-www-form-urlencoded
+    [HTTP_USER_AGENT] => PayPal IPN ( https://www.paypal.com/ipn )
+    [HTTP_CORRELATION_ID] => 7b919bbc77bb1
+    [CONTENT_LENGTH] => 921
+    [HTTP_X_FORWARDED_FOR] => 173.0.82.126
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [SERVER_SIGNATURE] => <address>Apache/2.4.7 (Ubuntu) Server at 75338139.ngrok.io Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.7 (Ubuntu)
+    [SERVER_NAME] => 75338139.ngrok.io
+    [SERVER_ADDR] => 127.0.0.1
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 127.0.0.1
+    [DOCUMENT_ROOT] => /var/www/html
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /var/www/html
+    [SERVER_ADMIN] => webmaster@localhost
+    [SCRIPT_FILENAME] => /var/www/html/practice/paypal/ipn-handler.php
+    [REMOTE_PORT] => 47104
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /practice/paypal/ipn-handler.php
+    [SCRIPT_NAME] => /practice/paypal/ipn-handler.php
+    [PHP_SELF] => /practice/paypal/ipn-handler.php
+    [REQUEST_TIME_FLOAT] => 1493017763.662
+    [REQUEST_TIME] => 1493017763
+)

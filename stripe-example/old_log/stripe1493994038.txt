@@ -1,0 +1,98 @@
+array (
+  'id' => 'evt_1AG7INBOC7tDda6fFR8ZLrbY',
+  'object' => 'event',
+  'api_version' => '2017-04-06',
+  'created' => 1493994035,
+  'data' => 
+  array (
+    'object' => 
+    array (
+      'id' => 'ch_1AG7INBOC7tDda6ffaQxJt6o',
+      'object' => 'charge',
+      'amount' => 100,
+      'amount_refunded' => 0,
+      'application' => NULL,
+      'application_fee' => NULL,
+      'balance_transaction' => 'txn_1AG7INBOC7tDda6fXJH0S3Bc',
+      'captured' => true,
+      'created' => 1493994035,
+      'currency' => 'usd',
+      'customer' => 'cus_AbJwEwkFuXKZjE',
+      'description' => NULL,
+      'destination' => NULL,
+      'dispute' => NULL,
+      'failure_code' => NULL,
+      'failure_message' => NULL,
+      'fraud_details' => 
+      array (
+      ),
+      'invoice' => 'in_1AG7INBOC7tDda6fMQrv5bIx',
+      'livemode' => false,
+      'metadata' => 
+      array (
+      ),
+      'on_behalf_of' => NULL,
+      'order' => NULL,
+      'outcome' => 
+      array (
+        'network_status' => 'approved_by_network',
+        'reason' => NULL,
+        'risk_level' => 'normal',
+        'seller_message' => 'Payment complete.',
+        'type' => 'authorized',
+      ),
+      'paid' => true,
+      'receipt_email' => NULL,
+      'receipt_number' => NULL,
+      'refunded' => false,
+      'refunds' => 
+      array (
+        'object' => 'list',
+        'data' => 
+        array (
+        ),
+        'has_more' => false,
+        'total_count' => 0,
+        'url' => '/v1/charges/ch_1AG7INBOC7tDda6ffaQxJt6o/refunds',
+      ),
+      'review' => NULL,
+      'shipping' => NULL,
+      'source' => 
+      array (
+        'id' => 'card_1AG7IJBOC7tDda6fR6EHcM2S',
+        'object' => 'card',
+        'address_city' => NULL,
+        'address_country' => NULL,
+        'address_line1' => NULL,
+        'address_line1_check' => NULL,
+        'address_line2' => NULL,
+        'address_state' => NULL,
+        'address_zip' => NULL,
+        'address_zip_check' => NULL,
+        'brand' => 'Visa',
+        'country' => 'US',
+        'customer' => 'cus_AbJwEwkFuXKZjE',
+        'cvc_check' => 'pass',
+        'dynamic_last4' => NULL,
+        'exp_month' => 11,
+        'exp_year' => 2022,
+        'fingerprint' => 'O29K4ESjjABIkYze',
+        'funding' => 'credit',
+        'last4' => '4242',
+        'metadata' => 
+        array (
+        ),
+        'name' => 'shrikrishna.shanbhag+4@intecons.com',
+        'tokenization_method' => NULL,
+      ),
+      'source_transfer' => NULL,
+      'statement_descriptor' => 'Daily Plan $1',
+      'status' => 'succeeded',
+      'transfer_group' => NULL,
+    ),
+  ),
+  'livemode' => false,
+  'pending_webhooks' => 2,
+  'request' => 'req_AbJwm1qrAoO691',
+  'type' => 'charge.succeeded',
+)

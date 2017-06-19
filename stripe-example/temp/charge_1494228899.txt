@@ -1,0 +1,90 @@
+'{
+  "id": "evt_1AH6OTBOC7tDda6fPawqOAkt",
+  "object": "event",
+  "api_version": "2017-04-06",
+  "created": 1494228897,
+  "data": {
+    "object": {
+      "id": "ch_1AH6OSBOC7tDda6fCvzNIopp",
+      "object": "charge",
+      "amount": 100,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "balance_transaction": "txn_1AH6OTBOC7tDda6fqy1gKMQu",
+      "captured": true,
+      "created": 1494228896,
+      "currency": "usd",
+      "customer": "cus_AbI7VINGuX9k1i",
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": "in_1AGoVeBOC7tDda6fuKfjJtXX",
+      "livemode": false,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "receipt_email": null,
+      "receipt_number": null,
+      "refunded": false,
+      "refunds": {
+        "object": "list",
+        "data": [
+
+        ],
+        "has_more": false,
+        "total_count": 0,
+        "url": "/v1/charges/ch_1AH6OSBOC7tDda6fCvzNIopp/refunds"
+      },
+      "review": null,
+      "shipping": null,
+      "source": {
+        "id": "card_1AG5XWBOC7tDda6fX52NuWEf",
+        "object": "card",
+        "address_city": null,
+        "address_country": null,
+        "address_line1": null,
+        "address_line1_check": null,
+        "address_line2": null,
+        "address_state": null,
+        "address_zip": null,
+        "address_zip_check": null,
+        "brand": "Visa",
+        "country": "US",
+        "customer": "cus_AbI7VINGuX9k1i",
+        "cvc_check": null,
+        "dynamic_last4": null,
+        "exp_month": 11,
+        "exp_year": 2017,
+        "fingerprint": "O29K4ESjjABIkYze",
+        "funding": "credit",
+        "last4": "4242",
+        "metadata": {
+        },
+        "name": "shrikrishna.shanbhag@intecons.com",
+        "tokenization_method": null
+      },
+      "source_transfer": null,
+      "statement_descriptor": "Daily Plan $1",
+      "status": "succeeded",
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 2,
+  "request": null,
+  "type": "charge.succeeded"
+}'

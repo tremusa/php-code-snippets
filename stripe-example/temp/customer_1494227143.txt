@@ -1,0 +1,136 @@
+'{
+  "id": "evt_1AH4oVBOC7tDda6fMLL184Go",
+  "object": "event",
+  "api_version": "2017-04-06",
+  "created": 1494222823,
+  "data": {
+    "object": {
+      "id": "cus_AcJRLUvORnIxut",
+      "object": "customer",
+      "account_balance": 0,
+      "created": 1494222823,
+      "currency": "usd",
+      "default_source": "card_1AH4oQBOC7tDda6fLKSH2aPU",
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "shrikrishna.shanbhag@intecons.com",
+      "livemode": false,
+      "metadata": {
+      },
+      "shipping": null,
+      "sources": {
+        "object": "list",
+        "data": [
+          {
+            "id": "card_1AH4oQBOC7tDda6fLKSH2aPU",
+            "object": "card",
+            "address_city": null,
+            "address_country": null,
+            "address_line1": null,
+            "address_line1_check": null,
+            "address_line2": null,
+            "address_state": null,
+            "address_zip": null,
+            "address_zip_check": null,
+            "brand": "Visa",
+            "country": "US",
+            "customer": "cus_AcJRLUvORnIxut",
+            "cvc_check": "pass",
+            "dynamic_last4": null,
+            "exp_month": 11,
+            "exp_year": 2019,
+            "fingerprint": "O29K4ESjjABIkYze",
+            "funding": "credit",
+            "last4": "4242",
+            "metadata": {
+            },
+            "name": "shrikrishna.shanbhag@intecons.com",
+            "tokenization_method": null
+          }
+        ],
+        "has_more": false,
+        "total_count": 1,
+        "url": "/v1/customers/cus_AcJRLUvORnIxut/sources"
+      },
+      "subscriptions": {
+        "object": "list",
+        "data": [
+          {
+            "id": "sub_AcJRDLJ6SukFzQ",
+            "object": "subscription",
+            "application_fee_percent": null,
+            "cancel_at_period_end": false,
+            "canceled_at": null,
+            "created": 1494222823,
+            "current_period_end": 1494309223,
+            "current_period_start": 1494222823,
+            "customer": "cus_AcJRLUvORnIxut",
+            "discount": null,
+            "ended_at": null,
+            "items": {
+              "object": "list",
+              "data": [
+                {
+                  "id": "si_1AH4oVBOC7tDda6fOqUoHEv0",
+                  "object": "subscription_item",
+                  "created": 1494222823,
+                  "plan": {
+                    "id": "daily",
+                    "object": "plan",
+                    "amount": 100,
+                    "created": 1493963578,
+                    "currency": "usd",
+                    "interval": "day",
+                    "interval_count": 1,
+                    "livemode": false,
+                    "metadata": {
+                    },
+                    "name": "daily",
+                    "statement_descriptor": "Daily Plan $1",
+                    "trial_period_days": null
+                  },
+                  "quantity": 1
+                }
+              ],
+              "has_more": false,
+              "total_count": 1,
+              "url": "/v1/subscription_items?subscription=sub_AcJRDLJ6SukFzQ"
+            },
+            "livemode": false,
+            "metadata": {
+            },
+            "plan": {
+              "id": "daily",
+              "object": "plan",
+              "amount": 100,
+              "created": 1493963578,
+              "currency": "usd",
+              "interval": "day",
+              "interval_count": 1,
+              "livemode": false,
+              "metadata": {
+              },
+              "name": "daily",
+              "statement_descriptor": "Daily Plan $1",
+              "trial_period_days": null
+            },
+            "quantity": 1,
+            "start": 1494222823,
+            "status": "active",
+            "tax_percent": null,
+            "trial_end": null,
+            "trial_start": null
+          }
+        ],
+        "has_more": false,
+        "total_count": 1,
+        "url": "/v1/customers/cus_AcJRLUvORnIxut/subscriptions"
+      }
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": "req_AcJRNE9Mj6SqSi",
+  "type": "customer.created"
+}'

@@ -1,0 +1,82 @@
+'{
+  "id": "evt_1AGqzmBOC7tDda6fp4CYwxI9",
+  "object": "event",
+  "api_version": "2017-04-06",
+  "created": 1494169706,
+  "data": {
+    "object": {
+      "id": "sub_AbKil92b1wpkjU",
+      "object": "subscription",
+      "application_fee_percent": null,
+      "cancel_at_period_end": false,
+      "canceled_at": null,
+      "created": 1493996900,
+      "current_period_end": 1494256100,
+      "current_period_start": 1494169700,
+      "customer": "cus_AbKi5zovplzFZF",
+      "discount": null,
+      "ended_at": null,
+      "items": {
+        "object": "list",
+        "data": [
+          {
+            "id": "si_1AG82aBOC7tDda6fhQUoFMGK",
+            "object": "subscription_item",
+            "created": 1493996901,
+            "plan": {
+              "id": "daily",
+              "object": "plan",
+              "amount": 100,
+              "created": 1493963578,
+              "currency": "usd",
+              "interval": "day",
+              "interval_count": 1,
+              "livemode": false,
+              "metadata": {
+              },
+              "name": "daily",
+              "statement_descriptor": "Daily Plan $1",
+              "trial_period_days": null
+            },
+            "quantity": 1
+          }
+        ],
+        "has_more": false,
+        "total_count": 1,
+        "url": "/v1/subscription_items?subscription=sub_AbKil92b1wpkjU"
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "plan": {
+        "id": "daily",
+        "object": "plan",
+        "amount": 100,
+        "created": 1493963578,
+        "currency": "usd",
+        "interval": "day",
+        "interval_count": 1,
+        "livemode": false,
+        "metadata": {
+        },
+        "name": "daily",
+        "statement_descriptor": "Daily Plan $1",
+        "trial_period_days": null
+      },
+      "quantity": 1,
+      "start": 1493996900,
+      "status": "active",
+      "tax_percent": null,
+      "trial_end": null,
+      "trial_start": null
+    },
+    "previous_attributes": {
+      "current_period_end": 1494169700,
+      "current_period_start": 1494083300
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": null,
+  "type": "customer.subscription.updated"
+}'

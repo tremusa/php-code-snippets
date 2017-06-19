@@ -1,0 +1,32 @@
+
+Options +FollowSymLinks
+RewriteEngine On
+#RewriteBase /confirmation-new/
+#To hide the extension
+RewriteCond %{REQUEST_URI} [A-Z]
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteCond %{REQUEST_URI} !/$
+RewriteRule ^(.*)$ $1\.php
+RewriteRule ^sh$ agent-temp.php?agentid=1
+RewriteRule ^consumer/sh$ consumer/consumer-temp.php?agentid=1
+RewriteRule ^bg$ agent-temp.php?agentid=2
+RewriteRule ^consumer/bg$ consumer/consumer-temp.php?agentid=2
+RewriteRule ^js$ agent-temp.php?agentid=3
+RewriteRule ^consumer/js$ consumer/consumer-temp.php?agentid=3
+RewriteRule ^dc$ agent-temp.php?agentid=5
+RewriteRule ^consumer/dc$ consumer/consumer-temp.php?agentid=5
+RewriteRule ^rw$ agent-temp.php?agentid=6
+RewriteRule ^consumer/rw$ consumer/consumer-temp.php?agentid=6
+RewriteRule ^av$ agent-temp.php?agentid=7
+RewriteRule ^consumer/av$ consumer/consumer-temp.php?agentid=7
+RewriteRule ^mm$ agent-temp.php?agentid=8
+RewriteRule ^consumer/mm$ consumer/consumer-temp.php?agentid=8
+RewriteRule ^rs$ agent-temp.php?agentid=9
+RewriteRule ^consumer/rs$ consumer/consumer-temp.php?agentid=9
+RewriteRule ^jb$ agent-temp.php?agentid=11
+RewriteRule ^consumer/jb$ consumer/consumer-temp.php?agentid=11
+RewriteRule ^cn$ agent-temp.php?agentid=14
+RewriteRule ^consumer/cn$ consumer/consumer-temp.php?agentid=14
+RewriteRule ^va$ agent-temp.php?agentid=21
+RewriteRule ^consumer/va$ consumer/consumer-temp.php?agentid=21
+

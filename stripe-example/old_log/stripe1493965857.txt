@@ -1,0 +1,42 @@
+array (
+  'id' => 'evt_1AF3PbBOC7tDda6fO5wbbuFP',
+  'object' => 'event',
+  'api_version' => '2017-04-06',
+  'created' => 1493740779,
+  'data' => 
+  array (
+    'object' => 
+    array (
+      'object' => 'balance',
+      'available' => 
+      array (
+        0 => 
+        array (
+          'currency' => 'usd',
+          'amount' => 27179,
+          'source_types' => 
+          array (
+            'card' => 27179,
+          ),
+        ),
+      ),
+      'livemode' => false,
+      'pending' => 
+      array (
+        0 => 
+        array (
+          'currency' => 'usd',
+          'amount' => 0,
+          'source_types' => 
+          array (
+            'card' => 0,
+          ),
+        ),
+      ),
+    ),
+  ),
+  'livemode' => false,
+  'pending_webhooks' => 1,
+  'request' => NULL,
+  'type' => 'balance.available',
+)

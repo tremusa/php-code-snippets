@@ -1,0 +1,88 @@
+array (
+  'id' => 'evt_1AG5XbBOC7tDda6fTrRXNkRt',
+  'object' => 'event',
+  'api_version' => '2017-04-06',
+  'created' => 1493987291,
+  'data' => 
+  array (
+    'object' => 
+    array (
+      'id' => 'sub_AbI7yK5rzCO50Q',
+      'object' => 'subscription',
+      'application_fee_percent' => NULL,
+      'cancel_at_period_end' => false,
+      'canceled_at' => NULL,
+      'created' => 1493987290,
+      'current_period_end' => 1494073690,
+      'current_period_start' => 1493987290,
+      'customer' => 'cus_AbI7VINGuX9k1i',
+      'discount' => NULL,
+      'ended_at' => NULL,
+      'items' => 
+      array (
+        'object' => 'list',
+        'data' => 
+        array (
+          0 => 
+          array (
+            'id' => 'si_1AG5XaBOC7tDda6ffgXP6RHv',
+            'object' => 'subscription_item',
+            'created' => 1493987291,
+            'plan' => 
+            array (
+              'id' => 'daily',
+              'object' => 'plan',
+              'amount' => 100,
+              'created' => 1493963578,
+              'currency' => 'usd',
+              'interval' => 'day',
+              'interval_count' => 1,
+              'livemode' => false,
+              'metadata' => 
+              array (
+              ),
+              'name' => 'daily',
+              'statement_descriptor' => 'Daily Plan $1',
+              'trial_period_days' => NULL,
+            ),
+            'quantity' => 1,
+          ),
+        ),
+        'has_more' => false,
+        'total_count' => 1,
+        'url' => '/v1/subscription_items?subscription=sub_AbI7yK5rzCO50Q',
+      ),
+      'livemode' => false,
+      'metadata' => 
+      array (
+      ),
+      'plan' => 
+      array (
+        'id' => 'daily',
+        'object' => 'plan',
+        'amount' => 100,
+        'created' => 1493963578,
+        'currency' => 'usd',
+        'interval' => 'day',
+        'interval_count' => 1,
+        'livemode' => false,
+        'metadata' => 
+        array (
+        ),
+        'name' => 'daily',
+        'statement_descriptor' => 'Daily Plan $1',
+        'trial_period_days' => NULL,
+      ),
+      'quantity' => 1,
+      'start' => 1493987290,
+      'status' => 'active',
+      'tax_percent' => NULL,
+      'trial_end' => NULL,
+      'trial_start' => NULL,
+    ),
+  ),
+  'livemode' => false,
+  'pending_webhooks' => 2,
+  'request' => 'req_AbI75MHLPYfzGb',
+  'type' => 'customer.subscription.created',
+)

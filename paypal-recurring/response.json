@@ -1,0 +1,1017 @@
+
+success?
+object(Stripe\Customer)#5 (6) {
+  ["_opts":protected]=>
+  object(Stripe\Util\RequestOptions)#4 (2) {
+    ["headers"]=>
+    array(0) {
+    }
+    ["apiKey"]=>
+    string(32) "sk_test_U1YO6PnsFrd8bCKp3ZxJH3FQ"
+  }
+  ["_values":protected]=>
+  array(15) {
+    ["id"]=>
+    string(18) "cus_AXWdVaih47Bht2"
+    ["object"]=>
+    string(8) "customer"
+    ["account_balance"]=>
+    int(0)
+    ["created"]=>
+    int(1493118710)
+    ["currency"]=>
+    string(3) "usd"
+    ["default_source"]=>
+    string(29) "card_1ACRaABOC7tDda6fxXFCZkg1"
+    ["delinquent"]=>
+    bool(false)
+    ["description"]=>
+    NULL
+    ["discount"]=>
+    NULL
+    ["email"]=>
+    string(33) "shrikrishna.shanbhag@intecons.com"
+    ["livemode"]=>
+    bool(false)
+    ["metadata"]=>
+    object(Stripe\AttachedObject)#8 (6) {
+      ["_opts":protected]=>
+      object(Stripe\Util\RequestOptions)#4 (2) {
+        ["headers"]=>
+        array(0) {
+        }
+        ["apiKey"]=>
+        string(32) "sk_test_U1YO6PnsFrd8bCKp3ZxJH3FQ"
+      }
+      ["_values":protected]=>
+      array(0) {
+      }
+      ["_unsavedValues":protected]=>
+      object(Stripe\Util\Set)#12 (1) {
+        ["_elts":"Stripe\Util\Set":private]=>
+        array(0) {
+        }
+      }
+      ["_transientValues":protected]=>
+      object(Stripe\Util\Set)#13 (1) {
+        ["_elts":"Stripe\Util\Set":private]=>
+        array(0) {
+        }
+      }
+      ["_retrieveOptions":protected]=>
+      array(0) {
+      }
+      ["_lastResponse":protected]=>
+      NULL
+    }
+    ["shipping"]=>
+    NULL
+    ["sources"]=>
+    object(Stripe\Collection)#11 (7) {
+      ["_requestParams":protected]=>
+      array(0) {
+      }
+      ["_opts":protected]=>
+      object(Stripe\Util\RequestOptions)#4 (2) {
+        ["headers"]=>
+        array(0) {
+        }
+        ["apiKey"]=>
+        string(32) "sk_test_U1YO6PnsFrd8bCKp3ZxJH3FQ"
+      }
+      ["_values":protected]=>
+      array(5) {
+        ["object"]=>
+        string(4) "list"
+        ["data"]=>
+        array(1) {
+          [0]=>
+          object(Stripe\Card)#14 (6) {
+            ["_opts":protected]=>
+            object(Stripe\Util\RequestOptions)#4 (2) {
+              ["headers"]=>
+              array(0) {
+              }
+              ["apiKey"]=>
+              string(32) "sk_test_U1YO6PnsFrd8bCKp3ZxJH3FQ"
+            }
+            ["_values":protected]=>
+            array(23) {
+              ["id"]=>
+              string(29) "card_1ACRaABOC7tDda6fxXFCZkg1"
+              ["object"]=>
+              string(4) "card"
+              ["address_city"]=>
+              NULL
+              ["address_country"]=>
+              NULL
+              ["address_line1"]=>
+              NULL
+              ["address_line1_check"]=>
+              NULL
+              ["address_line2"]=>
+              NULL
+              ["address_state"]=>
+              NULL
+              ["address_zip"]=>
+              NULL
+              ["address_zip_check"]=>
+              NULL
+              ["brand"]=>
+              string(4) "Visa"
+              ["country"]=>
+              string(2) "US"
+              ["customer"]=>
+              string(18) "cus_AXWdVaih47Bht2"
+              ["cvc_check"]=>
+              string(4) "pass"
+              ["dynamic_last4"]=>
+              NULL
+              ["exp_month"]=>
+              int(11)
+              ["exp_year"]=>
+              int(2022)
+              ["fingerprint"]=>
+              string(16) "O29K4ESjjABIkYze"
+              ["funding"]=>
+              string(6) "credit"
+              ["last4"]=>
+              string(4) "4242"
+              ["metadata"]=>
+              object(Stripe\AttachedObject)#17 (6) {
+                ["_opts":protected]=>
+                object(Stripe\Util\RequestOptions)#4 (2) {
+                  ["headers"]=>
+                  array(0) {
+                  }
+                  ["apiKey"]=>
+                  string(32) "sk_test_U1YO6PnsFrd8bCKp3ZxJH3FQ"
+                }
+                ["_values":protected]=>
+                array(0) {
+                }
+                ["_unsavedValues":protected]=>
+                object(Stripe\Util\Set)#21 (1) {
+                  ["_elts":"Stripe\Util\Set":private]=>
+                  array(0) {
+                  }
+                }
+                ["_transientValues":protected]=>
+                object(Stripe\Util\Set)#22 (1) {
+                  ["_elts":"Stripe\Util\Set":private]=>
+                  array(0) {
+                  }
+                }
+                ["_retrieveOptions":protected]=>
+                array(0) {
+                }
+                ["_lastResponse":protected]=>
+                NULL
+              }
+              ["name"]=>
+              string(33) "shrikrishna.shanbhag@intecons.com"
+              ["tokenization_method"]=>
+              NULL
+            }
+            ["_unsavedValues":protected]=>
+            object(Stripe\Util\Set)#18 (1) {
+              ["_elts":"Stripe\Util\Set":private]=>
+              array(0) {
+              }
+            }
+            ["_transientValues":protected]=>
+            object(Stripe\Util\Set)#19 (1) {
+              ["_elts":"Stripe\Util\Set":private]=>
+              array(0) {
+              }
+            }
+            ["_retrieveOptions":protected]=>
+            array(0) {
+            }
+            ["_lastResponse":protected]=>
+            NULL
+          }
+        }
+        ["has_more"]=>
+        bool(false)
+        ["total_count"]=>
+        int(1)
+        ["url"]=>
+        string(40) "/v1/customers/cus_AXWdVaih47Bht2/sources"
+      }
+      ["_unsavedValues":protected]=>
+      object(Stripe\Util\Set)#15 (1) {
+        ["_elts":"Stripe\Util\Set":private]=>
+        array(0) {
+        }
+      }
+      ["_transientValues":protected]=>
+      object(Stripe\Util\Set)#16 (1) {
+        ["_elts":"Stripe\Util\Set":private]=>
+        array(0) {
+        }
+      }
+      ["_retrieveOptions":protected]=>
+      array(0) {
+      }
+      ["_lastResponse":protected]=>
+      NULL
+    }
+    ["subscriptions"]=>
+    object(Stripe\Collection)#20 (7) {
+      ["_requestParams":protected]=>
+      array(0) {
+      }
+      ["_opts":protected]=>
+      object(Stripe\Util\RequestOptions)#4 (2) {
+        ["headers"]=>
+        array(0) {
+        }
+        ["apiKey"]=>
+        string(32) "sk_test_U1YO6PnsFrd8bCKp3ZxJH3FQ"
+      }
+      ["_values":protected]=>
+      array(5) {
+        ["object"]=>
+        string(4) "list"
+        ["data"]=>
+        array(1) {
+          [0]=>
+          object(Stripe\Subscription)#23 (6) {
+            ["_opts":protected]=>
+            object(Stripe\Util\RequestOptions)#4 (2) {
+              ["headers"]=>
+              array(0) {
+              }
+              ["apiKey"]=>
+              string(32) "sk_test_U1YO6PnsFrd8bCKp3ZxJH3FQ"
+            }
+            ["_values":protected]=>
+            array(21) {
+              ["id"]=>
+              string(18) "sub_AXWd23MEN6T6kf"
+              ["object"]=>
+              string(12) "subscription"
+              ["application_fee_percent"]=>
+              NULL
+              ["cancel_at_period_end"]=>
+              bool(false)
+              ["canceled_at"]=>
+              NULL
+              ["created"]=>
+              int(1493118710)
+              ["current_period_end"]=>
+              int(1495710710)
+              ["current_period_start"]=>
+              int(1493118710)
+              ["customer"]=>
+              string(18) "cus_AXWdVaih47Bht2"
+              ["discount"]=>
+              NULL
+              ["ended_at"]=>
+              NULL
+              ["items"]=>
+              object(Stripe\Collection)#26 (7) {
+                ["_requestParams":protected]=>
+                array(0) {
+                }
+                ["_opts":protected]=>
+                object(Stripe\Util\RequestOptions)#4 (2) {
+                  ["headers"]=>
+                  array(0) {
+                  }
+                  ["apiKey"]=>
+                  string(32) "sk_test_U1YO6PnsFrd8bCKp3ZxJH3FQ"
+                }
+                ["_values":protected]=>
+                array(5) {
+                  ["object"]=>
+                  string(4) "list"
+                  ["data"]=>
+                  array(1) {
+                    [0]=>
+                    object(Stripe\SubscriptionItem)#29 (6) {
+                      ["_opts":protected]=>
+                      object(Stripe\Util\RequestOptions)#4 (2) {
+                        ["headers"]=>
+                        array(0) {
+                        }
+                        ["apiKey"]=>
+                        string(32) "sk_test_U1YO6PnsFrd8bCKp3ZxJH3FQ"
+                      }
+                      ["_values":protected]=>
+                      array(5) {
+                        ["id"]=>
+                        string(27) "si_1ACRaEBOC7tDda6f61tzpZyB"
+                        ["object"]=>
+                        string(17) "subscription_item"
+                        ["created"]=>
+                        int(1493118711)
+                        ["plan"]=>
+                        object(Stripe\Plan)#32 (6) {
+                          ["_opts":protected]=>
+                          object(Stripe\Util\RequestOptions)#4 (2) {
+                            ["headers"]=>
+                            array(0) {
+                            }
+                            ["apiKey"]=>
+                            string(32) "sk_test_U1YO6PnsFrd8bCKp3ZxJH3FQ"
+                          }
+                          ["_values":protected]=>
+                          array(12) {
+                            ["id"]=>
+                            string(4) "gold"
+                            ["object"]=>
+                            string(4) "plan"
+                            ["amount"]=>
+                            int(2500)
+                            ["created"]=>
+                            int(1493115101)
+                            ["currency"]=>
+                            string(3) "usd"
+                            ["interval"]=>
+                            string(5) "month"
+                            ["interval_count"]=>
+                            int(1)
+                            ["livemode"]=>
+                            bool(false)
+                            ["metadata"]=>
+                            object(Stripe\AttachedObject)#35 (6) {
+                              ["_opts":protected]=>
+                              object(Stripe\Util\RequestOptions)#4 (2) {
+                                ["headers"]=>
+                                array(0) {
+                                }
+                                ["apiKey"]=>
+                                string(32) "sk_test_U1YO6PnsFrd8bCKp3ZxJH3FQ"
+                              }
+                              ["_values":protected]=>
+                              array(0) {
+                              }
+                              ["_unsavedValues":protected]=>
+                              object(Stripe\Util\Set)#39 (1) {
+                                ["_elts":"Stripe\Util\Set":private]=>
+                                array(0) {
+                                }
+                              }
+                              ["_transientValues":protected]=>
+                              object(Stripe\Util\Set)#40 (1) {
+                                ["_elts":"Stripe\Util\Set":private]=>
+                                array(0) {
+                                }
+                              }
+                              ["_retrieveOptions":protected]=>
+                              array(0) {
+                              }
+                              ["_lastResponse":protected]=>
+                              NULL
+                            }
+                            ["name"]=>
+                            string(12) "Carpool Gold"
+                            ["statement_descriptor"]=>
+                            string(17) "carpool gold plan"
+                            ["trial_period_days"]=>
+                            NULL
+                          }
+                          ["_unsavedValues":protected]=>
+                          object(Stripe\Util\Set)#36 (1) {
+                            ["_elts":"Stripe\Util\Set":private]=>
+                            array(0) {
+                            }
+                          }
+                          ["_transientValues":protected]=>
+                          object(Stripe\Util\Set)#37 (1) {
+                            ["_elts":"Stripe\Util\Set":private]=>
+                            array(0) {
+                            }
+                          }
+                          ["_retrieveOptions":protected]=>
+                          array(0) {
+                          }
+                          ["_lastResponse":protected]=>
+                          NULL
+                        }
+                        ["quantity"]=>
+                        int(1)
+                      }
+                      ["_unsavedValues":protected]=>
+                      object(Stripe\Util\Set)#33 (1) {
+                        ["_elts":"Stripe\Util\Set":private]=>
+                        array(0) {
+                        }
+                      }
+                      ["_transientValues":protected]=>
+                      object(Stripe\Util\Set)#34 (1) {
+                        ["_elts":"Stripe\Util\Set":private]=>
+                        array(0) {
+                        }
+                      }
+                      ["_retrieveOptions":protected]=>
+                      array(0) {
+                      }
+                      ["_lastResponse":protected]=>
+                      NULL
+                    }
+                  }
+                  ["has_more"]=>
+                  bool(false)
+                  ["total_count"]=>
+                  int(1)
+                  ["url"]=>
+                  string(54) "/v1/subscription_items?subscription=sub_AXWd23MEN6T6kf"
+                }
+                ["_unsavedValues":protected]=>
+                object(Stripe\Util\Set)#30 (1) {
+                  ["_elts":"Stripe\Util\Set":private]=>
+                  array(0) {
+                  }
+                }
+                ["_transientValues":protected]=>
+                object(Stripe\Util\Set)#31 (1) {
+                  ["_elts":"Stripe\Util\Set":private]=>
+                  array(0) {
+                  }
+                }
+                ["_retrieveOptions":protected]=>
+                array(0) {
+                }
+                ["_lastResponse":protected]=>
+                NULL
+              }
+              ["livemode"]=>
+              bool(false)
+              ["metadata"]=>
+              object(Stripe\AttachedObject)#38 (6) {
+                ["_opts":protected]=>
+                object(Stripe\Util\RequestOptions)#4 (2) {
+                  ["headers"]=>
+                  array(0) {
+                  }
+                  ["apiKey"]=>
+                  string(32) "sk_test_U1YO6PnsFrd8bCKp3ZxJH3FQ"
+                }
+                ["_values":protected]=>
+                array(0) {
+                }
+                ["_unsavedValues":protected]=>
+                object(Stripe\Util\Set)#42 (1) {
+                  ["_elts":"Stripe\Util\Set":private]=>
+                  array(0) {
+                  }
+                }
+                ["_transientValues":protected]=>
+                object(Stripe\Util\Set)#43 (1) {
+                  ["_elts":"Stripe\Util\Set":private]=>
+                  array(0) {
+                  }
+                }
+                ["_retrieveOptions":protected]=>
+                array(0) {
+                }
+                ["_lastResponse":protected]=>
+                NULL
+              }
+              ["plan"]=>
+              object(Stripe\Plan)#41 (6) {
+                ["_opts":protected]=>
+                object(Stripe\Util\RequestOptions)#4 (2) {
+                  ["headers"]=>
+                  array(0) {
+                  }
+                  ["apiKey"]=>
+                  string(32) "sk_test_U1YO6PnsFrd8bCKp3ZxJH3FQ"
+                }
+                ["_values":protected]=>
+                array(12) {
+                  ["id"]=>
+                  string(4) "gold"
+                  ["object"]=>
+                  string(4) "plan"
+                  ["amount"]=>
+                  int(2500)
+                  ["created"]=>
+                  int(1493115101)
+                  ["currency"]=>
+                  string(3) "usd"
+                  ["interval"]=>
+                  string(5) "month"
+                  ["interval_count"]=>
+                  int(1)
+                  ["livemode"]=>
+                  bool(false)
+                  ["metadata"]=>
+                  object(Stripe\AttachedObject)#44 (6) {
+                    ["_opts":protected]=>
+                    object(Stripe\Util\RequestOptions)#4 (2) {
+                      ["headers"]=>
+                      array(0) {
+                      }
+                      ["apiKey"]=>
+                      string(32) "sk_test_U1YO6PnsFrd8bCKp3ZxJH3FQ"
+                    }
+                    ["_values":protected]=>
+                    array(0) {
+                    }
+                    ["_unsavedValues":protected]=>
+                    object(Stripe\Util\Set)#48 (1) {
+                      ["_elts":"Stripe\Util\Set":private]=>
+                      array(0) {
+                      }
+                    }
+                    ["_transientValues":protected]=>
+                    object(Stripe\Util\Set)#49 (1) {
+                      ["_elts":"Stripe\Util\Set":private]=>
+                      array(0) {
+                      }
+                    }
+                    ["_retrieveOptions":protected]=>
+                    array(0) {
+                    }
+                    ["_lastResponse":protected]=>
+                    NULL
+                  }
+                  ["name"]=>
+                  string(12) "Carpool Gold"
+                  ["statement_descriptor"]=>
+                  string(17) "carpool gold plan"
+                  ["trial_period_days"]=>
+                  NULL
+                }
+                ["_unsavedValues":protected]=>
+                object(Stripe\Util\Set)#45 (1) {
+                  ["_elts":"Stripe\Util\Set":private]=>
+                  array(0) {
+                  }
+                }
+                ["_transientValues":protected]=>
+                object(Stripe\Util\Set)#46 (1) {
+                  ["_elts":"Stripe\Util\Set":private]=>
+                  array(0) {
+                  }
+                }
+                ["_retrieveOptions":protected]=>
+                array(0) {
+                }
+                ["_lastResponse":protected]=>
+                NULL
+              }
+              ["quantity"]=>
+              int(1)
+              ["start"]=>
+              int(1493118710)
+              ["status"]=>
+              string(6) "active"
+              ["tax_percent"]=>
+              NULL
+              ["trial_end"]=>
+              NULL
+              ["trial_start"]=>
+              NULL
+            }
+            ["_unsavedValues":protected]=>
+            object(Stripe\Util\Set)#27 (1) {
+              ["_elts":"Stripe\Util\Set":private]=>
+              array(0) {
+              }
+            }
+            ["_transientValues":protected]=>
+            object(Stripe\Util\Set)#28 (1) {
+              ["_elts":"Stripe\Util\Set":private]=>
+              array(0) {
+              }
+            }
+            ["_retrieveOptions":protected]=>
+            array(0) {
+            }
+            ["_lastResponse":protected]=>
+            NULL
+          }
+        }
+        ["has_more"]=>
+        bool(false)
+        ["total_count"]=>
+        int(1)
+        ["url"]=>
+        string(46) "/v1/customers/cus_AXWdVaih47Bht2/subscriptions"
+      }
+      ["_unsavedValues":protected]=>
+      object(Stripe\Util\Set)#24 (1) {
+        ["_elts":"Stripe\Util\Set":private]=>
+        array(0) {
+        }
+      }
+      ["_transientValues":protected]=>
+      object(Stripe\Util\Set)#25 (1) {
+        ["_elts":"Stripe\Util\Set":private]=>
+        array(0) {
+        }
+      }
+      ["_retrieveOptions":protected]=>
+      array(0) {
+      }
+      ["_lastResponse":protected]=>
+      NULL
+    }
+  }
+  ["_unsavedValues":protected]=>
+  object(Stripe\Util\Set)#9 (1) {
+    ["_elts":"Stripe\Util\Set":private]=>
+    array(0) {
+    }
+  }
+  ["_transientValues":protected]=>
+  object(Stripe\Util\Set)#10 (1) {
+    ["_elts":"Stripe\Util\Set":private]=>
+    array(0) {
+    }
+  }
+  ["_retrieveOptions":protected]=>
+  array(0) {
+  }
+  ["_lastResponse":protected]=>
+  object(Stripe\ApiResponse)#7 (4) {
+    ["headers"]=>
+    array(13) {
+      ["Server"]=>
+      string(5) "nginx"
+      ["Date"]=>
+      string(29) "Tue, 25 Apr 2017 11:11:51 GMT"
+      ["Content-Type"]=>
+      string(16) "application/json"
+      ["Content-Length"]=>
+      string(4) "3386"
+      ["Connection"]=>
+      string(10) "keep-alive"
+      ["Access-Control-Allow-Credentials"]=>
+      string(4) "true"
+      ["Access-Control-Allow-Methods"]=>
+      string(32) "GET, POST, HEAD, OPTIONS, DELETE"
+      ["Access-Control-Allow-Origin"]=>
+      string(1) "*"
+      ["Access-Control-Max-Age"]=>
+      string(3) "300"
+      ["Cache-Control"]=>
+      string(18) "no-cache, no-store"
+      ["Request-Id"]=>
+      string(18) "req_AXWdbsfxuLnESm"
+      ["Stripe-Version"]=>
+      string(10) "2017-04-06"
+      ["Strict-Transport-Security"]=>
+      string(35) "max-age=31556926; includeSubDomains"
+    }
+    ["body"]=>
+    string(3386) "{
+  "id": "cus_AXWdVaih47Bht2",
+  "object": "customer",
+  "account_balance": 0,
+  "created": 1493118710,
+  "currency": "usd",
+  "default_source": "card_1ACRaABOC7tDda6fxXFCZkg1",
+  "delinquent": false,
+  "description": null,
+  "discount": null,
+  "email": "shrikrishna.shanbhag@intecons.com",
+  "livemode": false,
+  "metadata": {},
+  "shipping": null,
+  "sources": {
+    "object": "list",
+    "data": [
+      {
+        "id": "card_1ACRaABOC7tDda6fxXFCZkg1",
+        "object": "card",
+        "address_city": null,
+        "address_country": null,
+        "address_line1": null,
+        "address_line1_check": null,
+        "address_line2": null,
+        "address_state": null,
+        "address_zip": null,
+        "address_zip_check": null,
+        "brand": "Visa",
+        "country": "US",
+        "customer": "cus_AXWdVaih47Bht2",
+        "cvc_check": "pass",
+        "dynamic_last4": null,
+        "exp_month": 11,
+        "exp_year": 2022,
+        "fingerprint": "O29K4ESjjABIkYze",
+        "funding": "credit",
+        "last4": "4242",
+        "metadata": {},
+        "name": "shrikrishna.shanbhag@intecons.com",
+        "tokenization_method": null
+      }
+    ],
+    "has_more": false,
+    "total_count": 1,
+    "url": "/v1/customers/cus_AXWdVaih47Bht2/sources"
+  },
+  "subscriptions": {
+    "object": "list",
+    "data": [
+      {
+        "id": "sub_AXWd23MEN6T6kf",
+        "object": "subscription",
+        "application_fee_percent": null,
+        "cancel_at_period_end": false,
+        "canceled_at": null,
+        "created": 1493118710,
+        "current_period_end": 1495710710,
+        "current_period_start": 1493118710,
+        "customer": "cus_AXWdVaih47Bht2",
+        "discount": null,
+        "ended_at": null,
+        "items": {
+          "object": "list",
+          "data": [
+            {
+              "id": "si_1ACRaEBOC7tDda6f61tzpZyB",
+              "object": "subscription_item",
+              "created": 1493118711,
+              "plan": {
+                "id": "gold",
+                "object": "plan",
+                "amount": 2500,
+                "created": 1493115101,
+                "currency": "usd",
+                "interval": "month",
+                "interval_count": 1,
+                "livemode": false,
+                "metadata": {},
+                "name": "Carpool Gold",
+                "statement_descriptor": "carpool gold plan",
+                "trial_period_days": null
+              },
+              "quantity": 1
+            }
+          ],
+          "has_more": false,
+          "total_count": 1,
+          "url": "/v1/subscription_items?subscription=sub_AXWd23MEN6T6kf"
+        },
+        "livemode": false,
+        "metadata": {},
+        "plan": {
+          "id": "gold",
+          "object": "plan",
+          "amount": 2500,
+          "created": 1493115101,
+          "currency": "usd",
+          "interval": "month",
+          "interval_count": 1,
+          "livemode": false,
+          "metadata": {},
+          "name": "Carpool Gold",
+          "statement_descriptor": "carpool gold plan",
+          "trial_period_days": null
+        },
+        "quantity": 1,
+        "start": 1493118710,
+        "status": "active",
+        "tax_percent": null,
+        "trial_end": null,
+        "trial_start": null
+      }
+    ],
+    "has_more": false,
+    "total_count": 1,
+    "url": "/v1/customers/cus_AXWdVaih47Bht2/subscriptions"
+  }
+}
+"
+    ["json"]=>
+    array(15) {
+      ["id"]=>
+      string(18) "cus_AXWdVaih47Bht2"
+      ["object"]=>
+      string(8) "customer"
+      ["account_balance"]=>
+      int(0)
+      ["created"]=>
+      int(1493118710)
+      ["currency"]=>
+      string(3) "usd"
+      ["default_source"]=>
+      string(29) "card_1ACRaABOC7tDda6fxXFCZkg1"
+      ["delinquent"]=>
+      bool(false)
+      ["description"]=>
+      NULL
+      ["discount"]=>
+      NULL
+      ["email"]=>
+      string(33) "shrikrishna.shanbhag@intecons.com"
+      ["livemode"]=>
+      bool(false)
+      ["metadata"]=>
+      array(0) {
+      }
+      ["shipping"]=>
+      NULL
+      ["sources"]=>
+      array(5) {
+        ["object"]=>
+        string(4) "list"
+        ["data"]=>
+        array(1) {
+          [0]=>
+          array(23) {
+            ["id"]=>
+            string(29) "card_1ACRaABOC7tDda6fxXFCZkg1"
+            ["object"]=>
+            string(4) "card"
+            ["address_city"]=>
+            NULL
+            ["address_country"]=>
+            NULL
+            ["address_line1"]=>
+            NULL
+            ["address_line1_check"]=>
+            NULL
+            ["address_line2"]=>
+            NULL
+            ["address_state"]=>
+            NULL
+            ["address_zip"]=>
+            NULL
+            ["address_zip_check"]=>
+            NULL
+            ["brand"]=>
+            string(4) "Visa"
+            ["country"]=>
+            string(2) "US"
+            ["customer"]=>
+            string(18) "cus_AXWdVaih47Bht2"
+            ["cvc_check"]=>
+            string(4) "pass"
+            ["dynamic_last4"]=>
+            NULL
+            ["exp_month"]=>
+            int(11)
+            ["exp_year"]=>
+            int(2022)
+            ["fingerprint"]=>
+            string(16) "O29K4ESjjABIkYze"
+            ["funding"]=>
+            string(6) "credit"
+            ["last4"]=>
+            string(4) "4242"
+            ["metadata"]=>
+            array(0) {
+            }
+            ["name"]=>
+            string(33) "shrikrishna.shanbhag@intecons.com"
+            ["tokenization_method"]=>
+            NULL
+          }
+        }
+        ["has_more"]=>
+        bool(false)
+        ["total_count"]=>
+        int(1)
+        ["url"]=>
+        string(40) "/v1/customers/cus_AXWdVaih47Bht2/sources"
+      }
+      ["subscriptions"]=>
+      array(5) {
+        ["object"]=>
+        string(4) "list"
+        ["data"]=>
+        array(1) {
+          [0]=>
+          array(21) {
+            ["id"]=>
+            string(18) "sub_AXWd23MEN6T6kf"
+            ["object"]=>
+            string(12) "subscription"
+            ["application_fee_percent"]=>
+            NULL
+            ["cancel_at_period_end"]=>
+            bool(false)
+            ["canceled_at"]=>
+            NULL
+            ["created"]=>
+            int(1493118710)
+            ["current_period_end"]=>
+            int(1495710710)
+            ["current_period_start"]=>
+            int(1493118710)
+            ["customer"]=>
+            string(18) "cus_AXWdVaih47Bht2"
+            ["discount"]=>
+            NULL
+            ["ended_at"]=>
+            NULL
+            ["items"]=>
+            array(5) {
+              ["object"]=>
+              string(4) "list"
+              ["data"]=>
+              array(1) {
+                [0]=>
+                array(5) {
+                  ["id"]=>
+                  string(27) "si_1ACRaEBOC7tDda6f61tzpZyB"
+                  ["object"]=>
+                  string(17) "subscription_item"
+                  ["created"]=>
+                  int(1493118711)
+                  ["plan"]=>
+                  array(12) {
+                    ["id"]=>
+                    string(4) "gold"
+                    ["object"]=>
+                    string(4) "plan"
+                    ["amount"]=>
+                    int(2500)
+                    ["created"]=>
+                    int(1493115101)
+                    ["currency"]=>
+                    string(3) "usd"
+                    ["interval"]=>
+                    string(5) "month"
+                    ["interval_count"]=>
+                    int(1)
+                    ["livemode"]=>
+                    bool(false)
+                    ["metadata"]=>
+                    array(0) {
+                    }
+                    ["name"]=>
+                    string(12) "Carpool Gold"
+                    ["statement_descriptor"]=>
+                    string(17) "carpool gold plan"
+                    ["trial_period_days"]=>
+                    NULL
+                  }
+                  ["quantity"]=>
+                  int(1)
+                }
+              }
+              ["has_more"]=>
+              bool(false)
+              ["total_count"]=>
+              int(1)
+              ["url"]=>
+              string(54) "/v1/subscription_items?subscription=sub_AXWd23MEN6T6kf"
+            }
+            ["livemode"]=>
+            bool(false)
+            ["metadata"]=>
+            array(0) {
+            }
+            ["plan"]=>
+            array(12) {
+              ["id"]=>
+              string(4) "gold"
+              ["object"]=>
+              string(4) "plan"
+              ["amount"]=>
+              int(2500)
+              ["created"]=>
+              int(1493115101)
+              ["currency"]=>
+              string(3) "usd"
+              ["interval"]=>
+              string(5) "month"
+              ["interval_count"]=>
+              int(1)
+              ["livemode"]=>
+              bool(false)
+              ["metadata"]=>
+              array(0) {
+              }
+              ["name"]=>
+              string(12) "Carpool Gold"
+              ["statement_descriptor"]=>
+              string(17) "carpool gold plan"
+              ["trial_period_days"]=>
+              NULL
+            }
+            ["quantity"]=>
+            int(1)
+            ["start"]=>
+            int(1493118710)
+            ["status"]=>
+            string(6) "active"
+            ["tax_percent"]=>
+            NULL
+            ["trial_end"]=>
+            NULL
+            ["trial_start"]=>
+            NULL
+          }
+        }
+        ["has_more"]=>
+        bool(false)
+        ["total_count"]=>
+        int(1)
+        ["url"]=>
+        string(46) "/v1/customers/cus_AXWdVaih47Bht2/subscriptions"
+      }
+    }
+    ["code"]=>
+    int(200)
+  }
+}

@@ -1,0 +1,88 @@
+'{
+  "id": "evt_1AGUUwBOC7tDda6fpajQos42",
+  "object": "event",
+  "api_version": "2017-04-06",
+  "created": 1494083226,
+  "data": {
+    "object": {
+      "id": "in_1AGUUwBOC7tDda6fjEdoR10S",
+      "object": "invoice",
+      "amount_due": 100,
+      "application_fee": null,
+      "attempt_count": 0,
+      "attempted": false,
+      "charge": null,
+      "closed": false,
+      "currency": "usd",
+      "customer": "cus_AbKgEDfrUUNfNk",
+      "date": 1494083226,
+      "description": null,
+      "discount": null,
+      "ending_balance": null,
+      "forgiven": false,
+      "lines": {
+        "object": "list",
+        "data": [
+          {
+            "id": "sub_AbKgTs3h9rgUbB",
+            "object": "line_item",
+            "amount": 100,
+            "currency": "usd",
+            "description": null,
+            "discountable": true,
+            "livemode": false,
+            "metadata": {
+            },
+            "period": {
+              "start": 1494083198,
+              "end": 1494169598
+            },
+            "plan": {
+              "id": "daily",
+              "object": "plan",
+              "amount": 100,
+              "created": 1493963578,
+              "currency": "usd",
+              "interval": "day",
+              "interval_count": 1,
+              "livemode": false,
+              "metadata": {
+              },
+              "name": "daily",
+              "statement_descriptor": "Daily Plan $1",
+              "trial_period_days": null
+            },
+            "proration": false,
+            "quantity": 1,
+            "subscription": null,
+            "subscription_item": "si_1AG80wBOC7tDda6ff4byqtsX",
+            "type": "subscription"
+          }
+        ],
+        "has_more": false,
+        "total_count": 1,
+        "url": "/v1/invoices/in_1AGUUwBOC7tDda6fjEdoR10S/lines"
+      },
+      "livemode": false,
+      "metadata": {
+      },
+      "next_payment_attempt": 1494086826,
+      "paid": false,
+      "period_end": 1494083198,
+      "period_start": 1493996798,
+      "receipt_number": null,
+      "starting_balance": 0,
+      "statement_descriptor": null,
+      "subscription": "sub_AbKgTs3h9rgUbB",
+      "subtotal": 100,
+      "tax": null,
+      "tax_percent": null,
+      "total": 100,
+      "webhooks_delivered_at": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": null,
+  "type": "invoice.created"
+}'

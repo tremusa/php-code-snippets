@@ -1,0 +1,99 @@
+array (
+  'id' => 'evt_1AG5cpBOC7tDda6fX79UtVVF',
+  'object' => 'event',
+  'api_version' => '2017-04-06',
+  'created' => 1493987615,
+  'data' => 
+  array (
+    'object' => 
+    array (
+      'id' => 'ch_1AG5coBOC7tDda6fpaM6KWpK',
+      'object' => 'charge',
+      'amount' => 100,
+      'amount_refunded' => 0,
+      'application' => NULL,
+      'application_fee' => NULL,
+      'balance_transaction' => NULL,
+      'captured' => false,
+      'created' => 1493987614,
+      'currency' => 'usd',
+      'customer' => NULL,
+      'description' => NULL,
+      'destination' => NULL,
+      'dispute' => NULL,
+      'failure_code' => 'card_declined',
+      'failure_message' => 'Your card was declined.',
+      'fraud_details' => 
+      array (
+        'stripe_report' => 'fraudulent',
+      ),
+      'invoice' => NULL,
+      'livemode' => false,
+      'metadata' => 
+      array (
+      ),
+      'on_behalf_of' => NULL,
+      'order' => NULL,
+      'outcome' => 
+      array (
+        'network_status' => 'not_sent_to_network',
+        'reason' => 'highest_risk_level',
+        'risk_level' => 'highest',
+        'seller_message' => 'Stripe blocked this charge as too risky.',
+        'type' => 'blocked',
+      ),
+      'paid' => false,
+      'receipt_email' => NULL,
+      'receipt_number' => NULL,
+      'refunded' => false,
+      'refunds' => 
+      array (
+        'object' => 'list',
+        'data' => 
+        array (
+        ),
+        'has_more' => false,
+        'total_count' => 0,
+        'url' => '/v1/charges/ch_1AG5coBOC7tDda6fpaM6KWpK/refunds',
+      ),
+      'review' => NULL,
+      'shipping' => NULL,
+      'source' => 
+      array (
+        'id' => 'card_1AG5ckBOC7tDda6fg90m4aXu',
+        'object' => 'card',
+        'address_city' => NULL,
+        'address_country' => NULL,
+        'address_line1' => NULL,
+        'address_line1_check' => NULL,
+        'address_line2' => NULL,
+        'address_state' => NULL,
+        'address_zip' => NULL,
+        'address_zip_check' => NULL,
+        'brand' => 'Visa',
+        'country' => 'US',
+        'customer' => NULL,
+        'cvc_check' => 'unavailable',
+        'dynamic_last4' => NULL,
+        'exp_month' => 12,
+        'exp_year' => 2017,
+        'fingerprint' => 'niV2WcHFD2cyz0lU',
+        'funding' => 'credit',
+        'last4' => '0019',
+        'metadata' => 
+        array (
+        ),
+        'name' => 'shrikrishna.shanbhag@intecons.com',
+        'tokenization_method' => NULL,
+      ),
+      'source_transfer' => NULL,
+      'statement_descriptor' => 'Daily Plan $1',
+      'status' => 'failed',
+      'transfer_group' => NULL,
+    ),
+  ),
+  'livemode' => false,
+  'pending_webhooks' => 2,
+  'request' => 'req_AbIDvRXV2qy9Rz',
+  'type' => 'charge.failed',
+)
